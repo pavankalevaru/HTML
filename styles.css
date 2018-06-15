@@ -1,0 +1,94 @@
+	body{
+        font-family: 
+		    font-family: Arial,sans-serif;
+		margin: 0;
+	}
+		.main_header{
+background-image: url("images/img3.jpg");
+        background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    padding: 10px;
+    color: black;
+    font-size: 25px;
+    text-align: right;		}
+.main_nav{
+	background-color: seagreen;
+	overflow: hidden;
+}
+.main_nav ul{
+	list-style-type: none;
+}
+.main_nav ul li{
+float: left;}
+.main_nav a{
+	text-decoration: none;
+	padding: 10px 25px;
+	color: black;
+	display: inline-block;
+}
+.main_nav a:hover{
+    background-color: #7d876b;
+	cursor: pointer;
+}
+.main_section {
+    margin-left: 35px;
+    text-align: center;
+}
+.main_section div{
+        border: 2px solid gray;
+    width: 295px;
+    height: 350px;
+    float: right;
+    margin: 8px;
+    padding: 3px;
+    border-radius: 10px;
+    }
+    .main_section p{
+    	color: red;
+    	padding: 0px;
+
+
+    }
+    .main_section img{
+    	width: 100%;
+    	height:300px;    }
+        .main_section  a{
+            margin: 10px;
+padding: 5px;
+text-decoration: none;
+font-size: 40px;
+
+        }
+.main_section div:hover{
+	cursor: pointer;
+	box-shadow: 5px 5px 5px red;
+
+}
+
+.div_reg{
+    background-color: seagreen;
+    text-align: center;
+    font-family:  sans-serif;
+}
+.reg a{
+        background-color: seagreen;
+    font-family:  sans-serif;
+text-decoration: none;
+font-size: 50px;
+border: 2px solid green;
+margin: 10px;
+}
+.div_label{
+        background-color: yellow;
+    text-align: center;
+    font-family:  sans-serif;
+
+}
+
+input[type='text'],input[type='password'],input[type='email'],input[type='submit'] ,input[type='date']{
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid red;
+}
